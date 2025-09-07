@@ -1,0 +1,22 @@
+{
+  "name": "Can-West Development Ltd",
+  "short_name": "Can-West Dev",
+  "description": "Premier construction and development services in Vancouver",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1e3a8a",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "https://i.ibb.co/6cSy9pQV/Can-West-Development-Ltd-logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://i.ibb.co/6cSy9pQV/Can-West-Development-Ltd-logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

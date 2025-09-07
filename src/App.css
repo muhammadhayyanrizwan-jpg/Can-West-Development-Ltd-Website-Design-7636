@@ -1,0 +1,245 @@
+.app-container {
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.dark-blue-pattern {
+  background-image: radial-gradient(circle at 25% 25%, #1e3a8a 2px, transparent 2px),
+    radial-gradient(circle at 75% 75%, #1e3a8a 1px, transparent 1px);
+  background-size: 50px 50px;
+  background-position: 0 0, 25px 25px;
+  opacity: 0.05;
+}
+
+.dark-blue-geometric {
+  background-image: linear-gradient(45deg, #1e3a8a 25%, transparent 25%),
+    linear-gradient(-45deg, #1e3a8a 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, #1e3a8a 75%),
+    linear-gradient(-45deg, transparent 75%, #1e3a8a 75%);
+  background-size: 30px 30px;
+  background-position: 0 0, 0 15px, 15px -15px, -15px 0px;
+  opacity: 0.03;
+}
+
+.dark-blue-waves {
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 10px,
+    #1e3a8a 10px,
+    #1e3a8a 11px
+  );
+  opacity: 0.04;
+}
+
+.dark-blue-hexagon {
+  background-image: radial-gradient(circle at 50% 50%, #1e3a8a 2px, transparent 2px);
+  background-size: 40px 40px;
+  opacity: 0.06;
+}
+
+.dark-blue-diagonal {
+  background: repeating-linear-gradient(
+    -45deg,
+    transparent,
+    transparent 20px,
+    #1e3a8a 20px,
+    #1e3a8a 22px
+  );
+  opacity: 0.03;
+}
+
+.dark-blue-grid {
+  background-image: linear-gradient(#1e3a8a 1px, transparent 1px),
+    linear-gradient(90deg, #1e3a8a 1px, transparent 1px);
+  background-size: 60px 60px;
+  opacity: 0.04;
+}
+
+/* New Black Accent Patterns */
+.black-accent-pattern {
+  background-image: linear-gradient(45deg, rgba(0,0,0,0.05) 25%, transparent 25%),
+    linear-gradient(-45deg, rgba(0,0,0,0.05) 25%, transparent 25%);
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
+}
+
+.black-geometric {
+  background-image: repeating-linear-gradient(
+    90deg,
+    transparent,
+    transparent 15px,
+    rgba(0,0,0,0.08) 15px,
+    rgba(0,0,0,0.08) 16px
+  );
+}
+
+.black-dots {
+  background-image: radial-gradient(circle at 20% 80%, rgba(0,0,0,0.1) 2px, transparent 2px),
+    radial-gradient(circle at 80% 20%, rgba(0,0,0,0.1) 1px, transparent 1px);
+  background-size: 25px 25px;
+}
+
+.dark-blue-accent {
+  background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+}
+
+/* Enhanced with black accents */
+.black-blue-gradient {
+  background: linear-gradient(135deg, #000000 0%, #1e3a8a 50%, #3b82f6 100%);
+}
+
+.text-dark-blue {
+  color: #1e3a8a;
+}
+
+.text-black-accent {
+  color: #1a1a1a;
+}
+
+.border-dark-blue {
+  border-color: #1e3a8a;
+}
+
+.border-black-accent {
+  border-color: #1a1a1a;
+}
+
+.hover-dark-blue:hover {
+  background-color: #1e3a8a;
+  color: white;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(30, 58, 138, 0.3), 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-secondary {
+  background: transparent;
+  color: #1e3a8a;
+  border: 2px solid #1e3a8a;
+  padding: 10px 22px;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-secondary:hover {
+  background: #1e3a8a;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* New black accent button */
+.btn-black-accent {
+  background: linear-gradient(135deg, #1a1a1a 0%, #333333 100%);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn-black-accent:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+.star-rating {
+  color: #fbbf24;
+}
+
+.star-empty {
+  color: #d1d5db;
+}
+
+/* Enhanced Decorative Elements with Black Accents */
+.decorative-circle {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(30, 58, 138, 0.1);
+}
+
+.decorative-circle-black {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.05);
+  border: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.decorative-square {
+  position: absolute;
+  background: rgba(30, 58, 138, 0.08);
+  transform: rotate(45deg);
+}
+
+.decorative-square-black {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.06);
+  transform: rotate(45deg);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.decorative-triangle {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 25px solid rgba(30, 58, 138, 0.1);
+}
+
+.decorative-triangle-black {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-bottom: 20px solid rgba(0, 0, 0, 0.08);
+}
+
+/* Enhanced card shadows with black accents */
+.card-shadow-enhanced {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07), 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+.card-shadow-enhanced:hover {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15), 0 5px 10px rgba(30, 58, 138, 0.1);
+}
+
+/* Enhanced scroll behavior */
+html {
+  scroll-behavior: auto !important;
+}
+
+body {
+  scroll-behavior: auto !important;
+}
+
+/* Ensure smooth page transitions */
+.page-transition {
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Override any smooth scrolling */
+* {
+  scroll-behavior: auto !important;
+}
